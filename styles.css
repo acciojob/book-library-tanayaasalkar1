@@ -1,51 +1,33 @@
-/*  your css code here. If applicable */
 body {
     margin: 0;
     padding: 20px;
-    background-color: #f8f8f8;
-    font-family: Arial, Helvetica, sans-serif;
+    background: #f8f8f8;
+    font-family: Arial, sans-serif;
 }
 
 .book-library {
     width: 90%;
-    max-width: 900px;
     margin: auto;
-    background-color: #ffffff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.15);
-}
-
-.book-library h1 {
-    text-align: center;
-    padding: 20px;
-    margin: 0;
+    background: #ffffff;
 }
 
 .book {
     padding: 20px;
-    border-top: 1px solid #eee;
+    margin-bottom: 20px;
 }
 
 .book img {
     display: block;
+    width: 200px;
     margin: 0 auto 20px;
-    width: 180px;
-    height: 270px;
-    object-fit: cover;
-}
-
-.book h2 {
-    margin: 0;
-    font-size: 30px;
 }
 
 .author {
-    margin: 5px 0 15px;
     color: #777777;
-    font-size: 18px;
 }
 
 .price {
-    background-color: #2ecc71;
+    background: #2ecc71;
     color: white;
     text-align: center;
     padding: 10px;
